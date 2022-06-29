@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Narcisa Estudio</title>
+	<link rel="shortcut icon" href="img/favicon.jpg">
+	<!-- CCS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Inicio Contenedor -->
+	<div class="contenedor">
+	<nav id="mainNav">
+		<a href="index.html">
+		  <img src="img/logo1.png" alt="Narcisa Estudio Logo">
+		</a>
+
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="views/Nuestros-Productos.html"> Nuestros Productos</a></li>
+			<li><a href="views/nos-presentamos.html"> Nos Presentamos</a></li>
+			<li><a href="views/blog.html"> Blog</a></li>
+			<li><a href="#contacto"> Contactanos</a></li>
+		</ul>
+	</nav>
+	<header id="header">
+		<h1 class="text-centro">Tu casa un Hogar</h1>
+		<img src="img/header2.jpg" alt="tu casa un hogar">
+	</header>
+	<main id="main">
+		<section class="bienvenidos__texto  fondoTexto">
+		<!-- Texto Presentacion -->
+		<h2 class="text-centro">Bienvenidos a Narcisa Estudio</h2>
+		<p class= "text-centro"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quidem commodi earum dolorum, possimus, quod illum id eaque dolorem delectus provident, nesciunt! Molestias, illo, delectus velit accusantium perspiciatis saepe voluptates.
+		Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolor impedit unde soluta consequatur ab maxime voluptates ex dolorem, animi repudiandae? Et excepturi facere, blanditiis magni laudantium dolorem eveniet quas, officia.</p>
+		</section>
+		<!-- Termina Texto Presentacion -->
+		<!-- Inicia formulario -->
+		<div class="contactanos">
+		<section>
+			<h3 class="text-centro">Comunicate con nosotras!</h3>
+			<form action="envio.php" id="contacto">
+				<fieldset class="formularioTexto">
+					<legend>Informacion</legend>
+					<label for="name">Nombre y Apellido</label>
+					<input type="text" id="name" placeholder="Tu nombre aqui">
+					<br>
+					<br>
+					<label for="email">Correo Electronico</label>
+					<input type="email" id="email" placeholder="Tu correo electronico aqui">
+				<legend>Tu mensaje aqui</legend>
+				<label for="mensaje"></label>
+				<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
+				<br>
+				<input type="reset" value="Cancelar">
+				<input type="submit" value="Enviar">
+				</fieldset>
+			</form>
+		</section>
+		<!-- Termina formulario -->
+		<section>
+			<h4>Visitanos!</h4>
+			<br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.792946098234!2d-64.19037088424837!3d-31.419830303563725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a32dcf5d747f%3A0x40373220b29140ac!2sPatio%20Olmos%20Shopping!5e0!3m2!1ses-419!2sar!4v1653937795964!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+		</div>
+	</main>
+	<br>
+	<footer class="pie" id="footer">
+		<section>
+		<form action="envio.php" id="newsletter"></form>
+		    <fieldset class="pieNewsletter">
+		    	<legend>Sumate a nuestro newsletter</legend>
+		    	<label for="email">Correo Electronico</label>
+		    	<input type="email" id="email" placeholder="Tu correo electronico aqui">
+		</fieldset>
+		</section>
+		<section>
+		  <a href="https://www.instagram.com/" target="_blank">
+			<img src="img/instagram.png" alt="Nuestro Instagram">
+		   </a>
+		  <a href="https://whatsapp.com/" target="_blank">
+			<img src="img/whatsapp.png" alt="Nuestro whatsapp">
+		  </a>
+        </section>
+	</footer>
+	</div>
+	<!-- Fin contenedor -->
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nuestros Productos</title>
+	<link rel="shortcut icon" href="../img/favicon.jpg">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<div class="contenedor">
+	 <nav id="mainNav">
+		<a href="../index.html">
+		  <img src="../img/logo1.png" alt="Narcisa Estudio Logo">
+		</a>
+
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="Nuestros-Productos.html"> Nuestros Productos</a></li>
+			<li><a href="nos-presentamos.html"> Nos Presentamos</a></li>
+			<li><a href="blog.html"> Blog</a></li>
+			<li><a href="conctacto.html"> Contactanos</a></li>
+		</ul>
+	 </nav>
+
+	 <header id="header"> 
+		<h1 class="text-centro">Nuestros Productos</h1>
+        <img src="../img/header4.jpg" alt="tu casa un hogar">
+		
+	 </header>
+	 <main id="main">
+	 	<div id="productos">
+		 <h2 class="text-centro">Productos 100% artesanales - Hace tu pedido!</h2>
+		 <section class="galeria">
+			<figure>
+				<img src="../img/productos/camino.jpg" alt="Camino de Mesa - Desierto">
+				<figcaption>Camino de Mesa - Desierto</figcaption>
+				<p class="price">$2000</p>
+			</figure>
+
+			<figure>
+				<img src="../img/productos/canasto.jpg" alt="Canasto con Manija">
+				<figcaption>Canasto con Manija</figcaption>
+				<p class="price">$5000</p>
+			</figure>
+
+			<figure>
+				<img src="../img/productos/difusor-vela.jpg" alt="Velas y Difusor">
+				<figcaption>Pack Difusor + Vela Aromatica</figcaption>
+				<p class="price">$1800</p>
+			</figure>
+
+			<figure>
+				<img src="../img/productos/maceta.jpg" alt="Maceta">
+				<figcaption>Macetero M</figcaption>
+				<p class="price">$3500</p>
+			</figure>
+        </div>
+	
+		</section>
+		<!-- Inicia formulario -->
+		<section>
+			<h3>Hace tu Pedido!</h3>
+			<form action="envio.php" id="contacto">
+				<fieldset class="formularioTexto">
+					<legend>Informacion Personal</legend>
+					<label for="name">Nombre y Apellido</label>
+					<input type="text" id="name" placeholder="Tu nombre aqui">
+					<br>
+					<br>
+					<label for="email">Correo Electronico</label>
+					<input type="email" id="email" placeholder="Tu correo electronico aqui">
+				</fieldset>
+				<fieldset class="formularioTexto">
+					<legend>Informacion del Pedido</legend>
+					<label for="Canasto">Canasto</label>
+					<input type="checkbox" id="Canasto" value="Canasto">
+					<br>
+					<label for="Camino">Camino</label>
+					<input type="checkbox" id="Camino" value="Camino">
+					<br>
+					<label for="Maceta">Maceta</label>
+					<input type="checkbox" id="Maceta" value="Maceta">
+					<br>
+					<label for="Difusor">Difusor + Vela</label>
+					<input type="checkbox" id="Difusor" value="Difusor">
+
+					</fieldset>
+				<fieldset class="formularioTexto">
+					<legend> Informacion del Envío</legend>
+					<label for="local"> Retiro por el local</label>
+					<input type="radio" id="local" name="envio" value="local">
+					<br>
+					<label for="domicilio">Envio a Domicilio</label>
+					<input type="radio" id="domicilio" name="envio" value="domicilio">
+					<br>
+					<select name="provincias" id="">
+						<option value="Córdoba"> Córdoba</option>
+						<option value="Buenos Aires">Buenos Aires</option>
+						<option value="Salta">Salta</option>
+						<option value="Rio Negro">Rio Negro</option>
+					</select>
+				</fieldset>
+					<br>
+				<input type="reset" value="Cancelar">
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+		<!-- Termina formulario -->
+	 </main>
+	 <br>
+	 <footer class="pie" id="footer">
+		<section>
+		<form action="envio.php" id="newsletter"></form>
+		    <fieldset class="pieNewsletter">
+		    	<legend>Sumate a nuestro newsletter</legend>
+		    	<label for="email">Correo Electronico</label>
+		    	<input type="email" id="email" placeholder="Tu correo electronico aqui">
+		</fieldset>
+		</section>
+        <section>
+	    <a href="https://www.instagram.com/" target="_blank">
+			<img src="../img/instagram.png" alt="Nuestro Instagram">
+		</a>
+		<a href="https://whatsapp.com/" target="_blank">
+			<img src="../img/whatsapp.png" alt="Nuestro whatsapp">
+		</a>
+        </section>
+	 </footer>
+	</div>
+</body>
+</html>
